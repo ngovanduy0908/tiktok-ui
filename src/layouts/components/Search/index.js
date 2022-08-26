@@ -5,9 +5,7 @@ import { faCircleXmark, faSpinner } from '@fortawesome/free-solid-svg-icons';
 import HeadlessTippy from '@tippyjs/react/headless';
 import classNames from 'classnames/bind';
 
-import * as searchServices from '~/apiServices/searchServices';
-
-// import axios from 'axios';
+import * as searchServices from '~/services/searchServices';
 
 import styles from './Search.module.scss';
 
